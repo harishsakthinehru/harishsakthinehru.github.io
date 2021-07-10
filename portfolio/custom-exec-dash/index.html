@@ -126,11 +126,11 @@
         <div class="case-details-info">
           <div class="case-details-info-item">
             <h5 class="text-light">Worked On</h5>
-            <p>Open to Public</p>
+            <p>Backend Service, Data Aggregation Pipelines, CI/CD Deployment</p>
           </div>
           <div class="case-details-info-item">
             <h5>Tech Stack</h5>
-            <p>Development, Backend</p>
+            <p>MongoDB, Redshift, Elasticsearch, Logstash, Java, React, Kubernetes, Jenkins, Airflow</p>
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
@@ -142,7 +142,7 @@
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                To design, implement efficient data pipeline, highly-secured backend service and coordination with multiple teams to align several moving gears together and bring the site up in 2 days
+                To architect, design and implement data aggregation pipelines for metrics calculations and a microservice for supporting customizations with NoSQL backend store
               </p>
             </div>
           </div>
@@ -150,17 +150,17 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                Built a kafka-based data pipeline for ingestion of metrics from several sources. Implemented the backend service in Go with data store as Postgres. Utilized in-memory cache for 2-digit millisecond latencies and adopted critical security measures before hosting to public.
+                Researched through different real-time analytics technologies and created a pipeline with Redshift &#43; ELK. Implemented a Java based service for enabling dashboard customizations with a schema-less data store design.
               </p>
             </div>
           </div>
         </div>
         <div class="case-details-thumb mb-5">
-          <img src="https://harishsakthi.com/images/portfolio/fourkites/live-fourkites.png" alt="case-details" />
+          <img src="https://harishsakthi.com/images/portfolio/fourkites/custom-exec-dash.png" alt="case-details" />
         </div>
-        <p>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.</p>
-<p>Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world. Fourkites wanted to take the opportunity to use their data to benefit the industry as a whole, not just their customers or users. With the current crisis in mind, Fourkites chose to make this information public, rather than sequestering it within the platform, making it available to anyone who needed the information. State governments have also benefited from this, by more accurately understanding the flow of goods into their region so they can reroute supply convoys to address product shortages.</p>
-<p>The dashboard was met with critical acclaim and FourKites received an Honorable Mention for Fast Company’s prestigious World Changers Awards. This contest honors products, concepts, companies, policies, and designs that are pursuing innovation for the good of society and the planet.</p>
+        <p>As the user base was more diverse with different types of roles, the metrics that each user would be interested in varied depending on their role in the part of Logistics. Instead of showing a single pre-built dashboard for all types of executives, we had to make it more customizable and user-friendly.</p>
+<p>Started with requirement gathering and after identifying the base data sources, I started working on volume analysis and brought in realistic assumptions for the projected scale based on data growth trend. Tried out POC&rsquo;s on multiple aggregation technologies like Pinot, Clickhouse, Influx, Timescale, Elasticsearch. After weighing several pros/cons, I went ahead with Elasticsearch + Logstash + Redshift + Airflow for querying the metrics.</p>
+<p>The dashboard customizations, being user-created, had to be schema-less. We went ahead with a self-managed MongoDB as backend data store and with a Java + Spring service over the top, we were able to seamlessly scale the customizations per user. This established a contract with the Frontend widgets built using React.</p>
 
       </div>
     </div>

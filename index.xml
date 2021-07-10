@@ -112,8 +112,8 @@ Working around the clock, we quickly built out a dashboard providing real-time i
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/custom-exec-dash/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+      <description>As the user base was more diverse with different types of roles, the metrics that each user would be interested in varied depending on their role in the part of Logistics. Instead of showing a single pre-built dashboard for all types of executives, we had to make it more customizable and user-friendly.
+Started with requirement gathering and after identifying the base data sources, I started working on volume analysis and brought in realistic assumptions for the projected scale based on data growth trend.</description>
     </item>
     
     <item>
@@ -137,13 +137,13 @@ Working around the clock, we quickly built out a dashboard providing real-time i
     </item>
     
     <item>
-      <title>Licensing &amp; Security Framework</title>
+      <title>Licensing Framework</title>
       <link>https://harishsakthi.com/portfolio/licensing-fw/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/licensing-fw/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+      <description>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
+Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
     </item>
     
     <item>
@@ -174,6 +174,16 @@ Working around the clock, we quickly built out a dashboard providing real-time i
       <guid>https://harishsakthi.com/portfolio/rest-api-webhook/</guid>
       <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
 Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+    </item>
+    
+    <item>
+      <title>Security Framework</title>
+      <link>https://harishsakthi.com/portfolio/security-fw/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/security-fw/</guid>
+      <description>In order to avoid buffer overflows, Cross-Site Scripting (XSS), Unvalidated Input vulnerability, SQL injection and dirty-data, I came up with a generic security framework for all Ruby-based microservices.
+It was designed as a generic regex-based multi-level nested input validation system, which gives complete control over the data that in getting ingested into the system. The developers had to specify a regex policy for the incoming requests&#39; params and the framework will act as a middleware scrutinizing the input before forwarding it to the API controller.</description>
     </item>
     
     <item>

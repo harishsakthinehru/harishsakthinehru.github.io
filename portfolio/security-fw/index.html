@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Licensing Framework</title>
+  <title>Security Framework</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -118,19 +118,19 @@
     <div class="row mb-5">
       <div class="col-lg-10 offset-lg-1 text-center">
         <div class="case-details-title">
-          <h1>Licensing Framework</h1>
+          <h1>Security Framework</h1>
         </div>
         <p>
-          A robust access control framework, which enables fine-grained management of privileges and integrations across different products, teams, capabilities, user interfaces and features
+          A robust security framework for generic input validation based on policies to curate data for downstream consumption and decrease development effort.
         </p>
         <div class="case-details-info">
           <div class="case-details-info-item">
             <h5 class="text-light">Worked On</h5>
-            <p>UX, UI, Backend, Policy Framework</p>
+            <p>Backend, Policy Framework</p>
           </div>
           <div class="case-details-info-item">
             <h5>Tech Stack</h5>
-            <p>Go&#43;Gin, Postgres, Ruby&#43;Rails, Redis, Angular</p>
+            <p>Ruby&#43;Rails</p>
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
@@ -142,7 +142,7 @@
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                To build a licensing mechanism in the which can be used to manage detailed access to users at different products, packages, interfaces and features level.
+                To avoid dirty-data, memory bloating in services and curate the data to build confidence in analytics pipelines and derived insights
               </p>
             </div>
           </div>
@@ -150,18 +150,17 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                Designed UX, implemented UI and coded a generic framework from scratch in a new programming language, used for critical operations, integrations with different technologies and also support for multiple programming languages.
+                Implemented a generic framework from scratch in Ruby, used as a middleware which avoids security vulnerabilities and permits only scoped data into the system
               </p>
             </div>
           </div>
         </div>
         <div class="case-details-thumb mb-5">
-          <img src="https://harishsakthi.com/images/portfolio/fourkites/licensing-fw.png" alt="case-details" />
+          <img src="https://harishsakthi.com/images/portfolio/fourkites/security-fw.png" alt="case-details" />
         </div>
-        <p>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.</p>
-<p>Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves. I used Postgres for the backend datastore as the data was highly relational and required transactional support. Microservice was written from scratch in Go+Gin to expose the contracts. This was the first GoLang based micro-service to go-live in production in Fourkites.</p>
-<p>I coded a generic license validator logic as a middleware in Ruby, Go, Angular and made it easily pluggable in the form of policies. Each API controller had a licensing policy attached, where we can specify what privilege is required to establish a authorized contract with each API. In frontend, we can attach policies in interceptor logic which decided whether to show a page or load a feature to user depending on their licenses.</p>
-<p>This also boosted the developer productivity as now all a developer had to do was just write one liner policy for each REST API and the framework will ensure that all authorizations and validations are regulated.</p>
+        <p>In order to avoid buffer overflows, Cross-Site Scripting (XSS), Unvalidated Input vulnerability, SQL injection and dirty-data, I came up with a generic security framework for all Ruby-based microservices.</p>
+<p>It was designed as a generic regex-based multi-level nested input validation system, which gives complete control over the data that in getting ingested into the system. The developers had to specify a regex policy for the incoming requests' params and the framework will act as a middleware scrutinizing the input before forwarding it to the API controller. This completely avoided dirty-data from getting ingested which resulted in better analytics and reporting downstream.</p>
+<p>This gave a huge confidence in the data and amped&rsquo;up the security aspects and boosted the developer productivity. This was critically acclaimed and immediately adopted by data ingestion team who are responsible for all types of data creation in the platform.</p>
 
       </div>
     </div>
@@ -181,7 +180,7 @@
             <div class="content">
               <span class="small">Prev case</span>
               <h5 class="title"><a class="text-dark"
-                  href="https://harishsakthi.com/portfolio/live-detention/">Live Detention Penalty</a></h5>
+                  href="https://harishsakthi.com/portfolio/temperature-compliance/">Temperature &amp; Weather Compliance</a></h5>
             </div>
           </div>
           
@@ -189,15 +188,15 @@
             
             <ul class="unstyle-list big">
               <li>
-                <a href=" https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fharishsakthi.com%2fportfolio%2flicensing-fw%2f"><i
+                <a href=" https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fharishsakthi.com%2fportfolio%2fsecurity-fw%2f"><i
                     class="fa fa-facebook-official btn-zoom"></i></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fharishsakthi.com%2fportfolio%2flicensing-fw%2f"><i
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fharishsakthi.com%2fportfolio%2fsecurity-fw%2f"><i
                     class="fa fa-linkedin-square btn-zoom"></i></a>
               </li>
               <li>
-                <a href="https://twitter.com/intent/tweet?&url=https%3a%2f%2fharishsakthi.com%2fportfolio%2flicensing-fw%2f"><i
+                <a href="https://twitter.com/intent/tweet?&url=https%3a%2f%2fharishsakthi.com%2fportfolio%2fsecurity-fw%2f"><i
                     class="fa fa-twitter-square btn-zoom"></i></a>
               </li>
             </ul>
@@ -207,7 +206,7 @@
             <div class=" content text-right">
               <span class="small">Next case</span>
               <h5 class="title">
-                <a class="text-dark" href="https://harishsakthi.com/portfolio/elasticsearch/">Elasticsearch Efficiency</a>
+                <a class="text-dark" href="https://harishsakthi.com/portfolio/rest-api-webhook/">REST API Webhooks</a>
               </h5>
             </div>
             <div class="icon ml-3">
