@@ -121,20 +121,20 @@
           <h1>Live Detention Penalty</h1>
         </div>
         <p>
-          This was designed at the beginning of the COVID-19 pandemic, with the aim of giving the world’s supply chain professionals easier access to live information about delays, holdups and congestion at critical points around the world. It displays real-time data and insights into the status of ports, border crossings and interstate transit corridors all across the globe, and is free and open to the public. Check it out at https://live.fourkites.com
+          A widget indicating the live detention minutes and top 5 loads causing those penalties
         </p>
         <div class="case-details-info">
           <div class="case-details-info-item">
             <h5 class="text-light">Worked On</h5>
-            <p>Open to Public</p>
+            <p>REST API and data pipeline development</p>
           </div>
           <div class="case-details-info-item">
             <h5>Tech Stack</h5>
-            <p>Development, Backend</p>
+            <p>Ruby&#43;Rails, Elasticsearch, Painless, Postgres, SQS</p>
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
-            <p>April, 2020</p>
+            <p>January, 0001</p>
           </div>
         </div>
         <div class="row mb-5">
@@ -142,7 +142,7 @@
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                To design, implement efficient data pipeline, highly-secured backend service and coordination with multiple teams to align several moving gears together and bring the site up in 2 days
+                To show the live detention penalty getting accumulated each minute and top 5 loads causing them, so that customer can proactively take corrective action
               </p>
             </div>
           </div>
@@ -150,39 +150,24 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                Built a kafka-based data pipeline for ingestion of metrics from several sources. Implemented the backend service in Go with data store as Postgres. Utilized in-memory cache for 2-digit millisecond latencies and adopted critical security measures before hosting to public.
+                Analysed, identified the source data and pushed them to aggregation store. Implemented an API to expose the metric data required for the widget.
               </p>
             </div>
           </div>
         </div>
         <div class="case-details-thumb mb-5">
-          <img src="https://harishsakthi.com/images/portfolio/fourkites/live-fourkites.png" alt="case-details" />
+          <img src="https://harishsakthi.com/images/portfolio/fourkites/live-detention.png" alt="case-details" />
         </div>
-        <p>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.</p>
-<p>Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world. Fourkites wanted to take the opportunity to use their data to benefit the industry as a whole, not just their customers or users. With the current crisis in mind, Fourkites chose to make this information public, rather than sequestering it within the platform, making it available to anyone who needed the information. State governments have also benefited from this, by more accurately understanding the flow of goods into their region so they can reroute supply convoys to address product shortages.</p>
-<p>The dashboard was met with critical acclaim and FourKites received an Honorable Mention for Fast Company’s prestigious World Changers Awards. This contest honors products, concepts, companies, policies, and designs that are pursuing innovation for the good of society and the planet.</p>
+        <p>Detention “occurs when the consignee holds onto the carrier’s container outside of the port, terminal, or depot beyond the free time that is allotted. Detention is charged when import containers have been picked up, but the container is still in the possession of the consignee and has not been returned within the allotted time”. For example, if 5 free days are provided to return an empty import container to the steamship line after pick-up but it takes the consignee 9 days to return the container, the steamship will likely charge the consignee for 4 days of detention. On average, it can easily exceed $200 per container per day.</p>
+<p>Detention fees are more than just an unfortunate part of doing business, they also result in delayed deliveries and payments, lost sales, and lack of product availability. These fees negatively impact cash flow and profitability.</p>
+<p>I built a metric widget which displays the current running detention minutes and the top 5 loads which were contributing the most to the detention penalty. With the exhaustive data that Fourkites has, we were able to capture the live detention caused by a load during its journey. This was constantly synced to Elasticsearch from where we did painless scripted query to get the aggregated metric and details for the widget.</p>
+<p>This helped all the customers to quickly identify the loads which were causing them huge penalties and take corrective action saving millions in detention penalties.</p>
 
       </div>
     </div>
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
         <nav class="case-details-nav d-flex justify-content-between align-items-center">
-          
-          <div class="previous d-flex align-items-center">
-            <div class="icon mr-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="28.285" viewBox="0 0 15.556 28.285">
-                <g data-name="Group 1243" fill="#2d2d2d">
-                  <path data-name="Path 1456" d="M3.391 12.728l9.75 14.142-.982 1.414-9.742-14.142z" />
-                  <path data-name="Path 1455" d="M13.137 1.41L3.39 15.558l-.975-1.415L12.166 0z" />
-                </g>
-              </svg>
-            </div>
-            <div class="content">
-              <span class="small">Prev case</span>
-              <h5 class="title"><a class="text-dark"
-                  href="https://harishsakthi.com/portfolio/live-fourkites/">Network Congestion Map</a></h5>
-            </div>
-          </div>
           
           <div class="social">
             
@@ -206,7 +191,7 @@
             <div class=" content text-right">
               <span class="small">Next case</span>
               <h5 class="title">
-                <a class="text-dark" href="https://harishsakthi.com/portfolio/licensing-fw/">Licensing Framework</a>
+                <a class="text-dark" href="https://harishsakthi.com/portfolio/dns-mgmt/">DNS Management Tool</a>
               </h5>
             </div>
             <div class="icon ml-3">

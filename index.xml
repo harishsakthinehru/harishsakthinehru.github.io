@@ -102,8 +102,9 @@ This is italic text</description>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/custom-zone/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+      <description>This was a very generic feature which was used in creative ways to solve different subset of problems in logistics and helped during Covid-19 as well.
+Some of the creative use-cases were
+ Users can look at Network Congestion map and customize a zone around the areas with longer wait times and get alerts when a truck is stopped there Identify areas affected by COVID-19 and customize zones with a fixed radius around these areas to be notified when a truck deviates or stops in this area Using Isochrone as a geofence type, the users can get notified when the truck is about to reach its destination Users can choose to get notified when the truck crosses a given landmark to prepare for the arrival For loads carrying altitude-sensitive materials, users can create a custom zone around areas of certain altitudes.</description>
     </item>
     
     <item>
@@ -144,16 +145,6 @@ Working around the clock, we quickly built out a dashboard providing real-time i
       <guid>https://harishsakthi.com/portfolio/licensing-fw/</guid>
       <description>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
 Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
-    </item>
-    
-    <item>
-      <title>Live Detention Penalty</title>
-      <link>https://harishsakthi.com/portfolio/live-detention/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/live-detention/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
     </item>
     
     <item>
@@ -214,6 +205,15 @@ We had multi-tenancy architecture, so data security and integrity played a criti
       <guid>https://harishsakthi.com/portfolio/dns-mgmt/</guid>
       <description>Zoho used to manage all the DNS servers, internal and external zone files manually. Considering the scale of the applications running in Zoho&amp;rsquo;s Data centers spanning continents, proactive measures had to be in place in case of any unforeseen disasters. Manual measures did not have the agility and always had a risk of human-error causing complete outages.
 We came up with an idea of building a tool, which would completely own this piece of Infrastructure and elevate the NOC team to take up other challenging tasks.</description>
+    </item>
+    
+    <item>
+      <title>Live Detention Penalty</title>
+      <link>https://harishsakthi.com/portfolio/live-detention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/live-detention/</guid>
+      <description>Detention “occurs when the consignee holds onto the carrier’s container outside of the port, terminal, or depot beyond the free time that is allotted. Detention is charged when import containers have been picked up, but the container is still in the possession of the consignee and has not been returned within the allotted time”. For example, if 5 free days are provided to return an empty import container to the steamship line after pick-up but it takes the consignee 9 days to return the container, the steamship will likely charge the consignee for 4 days of detention.</description>
     </item>
     
   </channel>
