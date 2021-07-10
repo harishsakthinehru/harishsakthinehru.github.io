@@ -8,54 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://harishsakthi.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Custom Zones</title>
-      <link>https://harishsakthi.com/portfolio/custom-zone/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/custom-zone/</guid>
-      <description>This was a very generic feature which was used in creative ways to solve different subset of problems in logistics and helped during Covid-19 as well.
-Some of the creative use-cases were
- Users can look at Network Congestion map and customize a zone around the areas with longer wait times and get alerts when a truck is stopped there Identify areas affected by COVID-19 and customize zones with a fixed radius around these areas to be notified when a truck deviates or stops in this area Using Isochrone as a geofence type, the users can get notified when the truck is about to reach its destination Users can choose to get notified when the truck crosses a given landmark to prepare for the arrival For loads carrying altitude-sensitive materials, users can create a custom zone around areas of certain altitudes.</description>
-    </item>
-    
-    <item>
       <title>Customizable Executive Dashboard</title>
       <link>https://harishsakthi.com/portfolio/custom-exec-dash/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/custom-exec-dash/</guid>
-      <description>As the user base was more diverse with different types of roles, the metrics that each user would be interested in varied depending on their role in the part of Logistics. Instead of showing a single pre-built dashboard for all types of executives, we had to make it more customizable and user-friendly.
-Started with requirement gathering and after identifying the base data sources, I started working on volume analysis and brought in realistic assumptions for the projected scale based on data growth trend.</description>
-    </item>
-    
-    <item>
-      <title>Distributed Server Allocation</title>
-      <link>https://harishsakthi.com/portfolio/server-alloc/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/server-alloc/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
-    </item>
-    
-    <item>
-      <title>Elasticsearch Efficiency</title>
-      <link>https://harishsakthi.com/portfolio/elasticsearch/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/elasticsearch/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
-    </item>
-    
-    <item>
-      <title>Licensing Framework</title>
-      <link>https://harishsakthi.com/portfolio/licensing-fw/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/licensing-fw/</guid>
-      <description>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
-Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
+      <description>As the user base was more diverse with different types of roles, the metrics that each user would be interested in varied depending on their role in their Logistics org. Instead of showing a single pre-built dashboard for all types of executives, we had to make it more customizable and user-friendly.
+Initiating with requirement gathering and identifying the base data sources, I started work on volume analysis and brought in realistic assumptions for the projected scale based on data growth patterns.</description>
     </item>
     
     <item>
@@ -71,17 +30,16 @@ Working around the clock, we quickly built out a dashboard providing real-time i
     <item>
       <title>REST API Webhooks</title>
       <link>https://harishsakthi.com/portfolio/rest-api-webhook/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/rest-api-webhook/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+      <description>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script which narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as intermediary. For filtering capabilities, I integrated the API with elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</description>
     </item>
     
     <item>
       <title>Security Framework</title>
       <link>https://harishsakthi.com/portfolio/security-fw/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/security-fw/</guid>
       <description>In order to avoid buffer overflows, Cross-Site Scripting (XSS), Unvalidated Input vulnerability, SQL injection and dirty-data, I came up with a generic security framework for all Ruby-based microservices.
@@ -89,19 +47,39 @@ It was designed as a generic regex-based multi-level nested input validation sys
     </item>
     
     <item>
+      <title>Custom Zones</title>
+      <link>https://harishsakthi.com/portfolio/custom-zone/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/custom-zone/</guid>
+      <description>This was a very generic feature which was used in creative ways to solve different subset of problems in logistics and helped during Covid-19 as well.
+Some of the creative use-cases were
+ Users can look at Network Congestion map and customize a zone around the areas with longer wait times and get alerts when a truck is stopped there Identify areas affected by COVID-19 and customize zones with a fixed radius around these areas to be notified when a truck deviates or stops in this area Using Isochrone as a geofence type, the users can get notified when the truck is about to reach its destination Users can choose to get notified when the truck crosses a given landmark to prepare for the arrival For loads carrying altitude-sensitive materials, users can create a custom zone around areas of certain altitudes.</description>
+    </item>
+    
+    <item>
       <title>Temperature &amp; Weather Compliance</title>
       <link>https://harishsakthi.com/portfolio/temperature-compliance/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/temperature-compliance/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
-Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>Licensing Framework</title>
+      <link>https://harishsakthi.com/portfolio/licensing-fw/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/licensing-fw/</guid>
+      <description>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
+Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
     </item>
     
     <item>
       <title>Visualization &amp; Integration</title>
       <link>https://harishsakthi.com/portfolio/app-viz/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/app-viz/</guid>
       <description>As part of Analytics team, we were responsible for reporting and gathering insights. Considering the huge volume of our data, we had to prepare datamarts in our data warehouse and push them to the in-memory data stores used by Viz tools Tableau and Sisense.
@@ -109,22 +87,32 @@ We had multi-tenancy architecture, so data security and integrity played a criti
     </item>
     
     <item>
+      <title>Live Detention Penalty</title>
+      <link>https://harishsakthi.com/portfolio/live-detention/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/live-detention/</guid>
+      <description>About Detention
+Detention is when a truck is delayed at either the origin pick up, or the destination delivery location for more than the agreed upon &amp;ldquo;free time&amp;rdquo;. In most freight transports, the truck has 2 hours at the time of pick up and 2 hours upon delivery free of any cost. The purpose of detention charges is to compensate the truck/carrier when they are held up due to shipper&amp;rsquo;s inefficiency.</description>
+    </item>
+    
+    <item>
+      <title>Distributed Server Allocation</title>
+      <link>https://harishsakthi.com/portfolio/server-alloc/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://harishsakthi.com/portfolio/server-alloc/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
       <title>DNS Management Tool</title>
       <link>https://harishsakthi.com/portfolio/dns-mgmt/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/dns-mgmt/</guid>
       <description>Zoho used to manage all the DNS servers, internal and external zone files manually. Considering the scale of the applications running in Zoho&amp;rsquo;s Data centers spanning continents, proactive measures had to be in place in case of any unforeseen disasters. Manual measures did not have the agility and always had a risk of human-error causing complete outages.
 We came up with an idea of building a tool, which would completely own this piece of Infrastructure and elevate the NOC team to take up other challenging tasks.</description>
-    </item>
-    
-    <item>
-      <title>Live Detention Penalty</title>
-      <link>https://harishsakthi.com/portfolio/live-detention/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://harishsakthi.com/portfolio/live-detention/</guid>
-      <description>Detention “occurs when the consignee holds onto the carrier’s container outside of the port, terminal, or depot beyond the free time that is allotted. Detention is charged when import containers have been picked up, but the container is still in the possession of the consignee and has not been returned within the allotted time”. For example, if 5 free days are provided to return an empty import container to the steamship line after pick-up but it takes the consignee 9 days to return the container, the steamship will likely charge the consignee for 4 days of detention.</description>
     </item>
     
   </channel>
