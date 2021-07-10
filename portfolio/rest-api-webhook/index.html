@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="case-details-thumb mb-5 text-center">
-          <img src="https://harishsakthi.com/images/portfolio/fourkites/rest-api-webhook.jpeg" alt="case-details" />
+          <img src="https://harishsakthi.com/images/portfolio/fourkites/rest-api-webhook.webp" alt="case-details" />
         </div>
         <p>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script which narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as intermediary. For filtering capabilities, I integrated the API with elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</p>
 <p>The high-throughput service was written in Go, which used Redis for performing rate limiting at customer level. Later on, we isolated the rate limiting responsibility from the service layer to a separate application gateway (Kong). This enabled us to capture the usage metrics as well for internal purposes.</p>
