@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Temperature &amp; Weather Compliance</title>
+  <title>Temperature Compliance</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -113,10 +113,10 @@
     <div class="row mb-5">
       <div class="col-lg-10 offset-lg-1">
         <div class="case-details-title text-center">
-          <h1>Temperature &amp; Weather Compliance</h1>
+          <h1>Temperature Compliance</h1>
         </div>
         <p class="text-center">
-          TBD
+          Customers who have goods that are highly dependent on temperature along the route, have to be pre-notified of any Reefer requirement or alerted in case of unacceptable temperature variations during the transit, to save the goods, energy and cost
         </p>
         <div class="case-details-info text-center">
           <div class="case-details-info-item">
@@ -125,7 +125,7 @@
           </div>
           <div class="case-details-info-item">
             <h5>Tech Stack</h5>
-            <p>Spark, Kafka, Hadoop, S3, DynamoDB, Redshift, Airflow, Phoenix, Python, Ruby</p>
+            <p>Spark, Kafka, Hadoop, DynamoDB, Elasticsearch, Redshift, Airflow, Python, Ruby</p>
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
@@ -137,7 +137,7 @@
             <div class="case-details-service text-center">
               <h3>Challenge</h3>
               <p>
-                TBD
+                Alerting users of the temperature along the route in-advance and suggesting if a Reefer container would be required for the transit
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@
             <div class="case-details-service text-center">
               <h3>Solution</h3>
               <p>
-                TBD
+                A combination of streaming and batch pipelines which proactively keeps track of the temperature variations across different areas and alert if load enters area with adverse conditions. This also predicts if an expensive Reefer container is required for transport based on historical info, weather &amp; temperature considerations across the route.
               </p>
             </div>
           </div>
@@ -153,7 +153,15 @@
         <div class="case-details-thumb mb-5 text-center">
           <img src="https://harishsakthi.com/images/portfolio/fourkites/temperature-compliance.webp" alt="case-details" />
         </div>
-        <p>TBD</p>
+        <p><strong>About Temperature Compliance</strong></p>
+<p>Shippers with goods adversely affected by temperature along the route, especially food items, need to plan ahead.</p>
+<ul>
+<li>Companies often have a difficult time efficiently managing their refrigerated loads as they do not know when to use them and when not to.</li>
+<li>Sustainability - Optimizing for reefer loads does not only save huge cost it also saves energy overall.</li>
+<li>Some companies do not want their loads to stop in areas with adverse temperature conditions</li>
+</ul>
+<p><strong>Solution</strong></p>
+<p>I designed the architecture, implemented the end-to-end data pipeline and backend microservice for API consumption. Using Spark, I came up with a batch job (Python) which fetches the data from warehouse periodically for temperature impact computation. Ad-hoc triggers from application layer were supported using a ruby background worker, which pushed the loads to Kafka. A spark streaming job (Python) consumes the loads from kafka, fetches the predicted route from a NoSQL store, gets the temperature forecast data for different areas from HERE APIs, computes the temperature impact and stores the result in the NoSQL store and Elasticsearch. From the application, requests get served by a microservice written in ruby which will read the results/predictions from NoSQL store and Elasticsearch.</p>
 
       </div>
     </div>

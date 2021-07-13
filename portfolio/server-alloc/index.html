@@ -116,7 +116,7 @@
           <h1>Distributed Server Allocation</h1>
         </div>
         <p class="text-center">
-          TBD
+          Allocation of servers for different components used by applications in a distributed, fault-tolerant and secure manner, resulting in high-availability, compliance and self-heal capabilities of applications running in a private cloud
         </p>
         <div class="case-details-info text-center">
           <div class="case-details-info-item">
@@ -137,7 +137,7 @@
             <div class="case-details-service text-center">
               <h3>Challenge</h3>
               <p>
-                TBD
+                Servers can be grouped based on types (VM/PS), hardware configs (RAM, Disk Type, Storage), IP Subnets (CIDR/VPC), Compliance (SOC/HIPAA), OS (linux/windows/unix) and so on. Allocating different servers depending on the component for which they perform efficiently and to be aware of unforeseen failures like power outages, fire-incident at rack level, KVM host issues and have self-heal capabilities, resulting in very low downtime for applications.
               </p>
             </div>
           </div>
@@ -145,15 +145,28 @@
             <div class="case-details-service text-center">
               <h3>Solution</h3>
               <p>
-                TBD
+                An algorithm which takes into account the desired configurations and other variable factors into account, thereby allocating servers in a distributed way, providing a guarantee that it is highly performant, fault-tolerant and standard-compliant.
               </p>
             </div>
           </div>
         </div>
         <div class="case-details-thumb mb-5 text-center">
-          <img src="https://harishsakthi.com/images/portfolio/fourkites/server-alloc.webp" alt="case-details" />
+          <img src="https://harishsakthi.com/images/portfolio/zoho/server-alloc.webp" alt="case-details" />
         </div>
-        <p>TBD</p>
+        <p><strong>About Server Allocation</strong></p>
+<p>In order to host more than a single application/database, we usually procure separate clusters for each. To host it in private cloud, we need to be allocate the servers in a manner which is rack &amp; chassis aware, leading to minimal outages due to hardware failures within a cage.</p>
+<p><strong>Problem</strong></p>
+<p>Manual allocations were very slow and inefficient. Sometimes, unreachable nodes were being alloted. This resulted in delay in server provisioning and launch of a product. Unavailability of IPs in the desired VPC/CIDR range caused delays.</p>
+<p><strong>How I solved this?</strong></p>
+<p>I came up with a proprietary algorithm which allocates servers dynamically across racks, chassis and physical servers based on required hardware specs and CIDR Subnets. This also ensured that the allocated servers were reachable, void of hardware &amp; software issues and compliant with the VPC separation.</p>
+<p>I boosted it further by templatizing the workflows and applications could be mapped to certain templates with desired configurations. This was then used to allocate web servers, application servers, database clusters and big-data services as well, covering all the components required for a product release and making the server provisioning very efficient and quick.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>Server provisioning time got reduced from ~ 1 day to less than a minute #agility #1500X_improvement</li>
+<li>This increased the fault-tolerance capability during outages caused by power failures at rack/chassis level #robust</li>
+<li>During nodes fail-over, immediate replacement will be performed automatically, resulting in highly available servers for the application #high_availability #self_heal</li>
+<li>Infra cost metrics associated to each teams could be easily identified and scaled down based on usage #cost_aware_business</li>
+</ul>
 
       </div>
     </div>

@@ -112,7 +112,8 @@ Initiating with requirement gathering and identifying the base data sources, I s
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/live-fourkites/</guid>
-      <description>At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
+      <description>Publicly available at https://live.fourkites.com
+At the onset of the COVID-19 pandemic’s arrival, closures and delays at ports and border crossings, as well as rest stops and welcome centers played havoc for supply chain professionals and logistics providers. Border crossings in particular, which were already notoriously difficult for logistics providers to predict, were especially impacted by COVID-related delays as the borders were being closed abruptly and without prior warning.
 Working around the clock, we quickly built out a dashboard providing real-time insights into transit times at national border crossings around the world.</description>
     </item>
     
@@ -147,12 +148,14 @@ Some of the creative use-cases were
     </item>
     
     <item>
-      <title>Temperature &amp; Weather Compliance</title>
+      <title>Temperature Compliance</title>
       <link>https://harishsakthi.com/portfolio/temperature-compliance/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/temperature-compliance/</guid>
-      <description>TBD</description>
+      <description>About Temperature Compliance
+Shippers with goods adversely affected by temperature along the route, especially food items, need to plan ahead.
+ Companies often have a difficult time efficiently managing their refrigerated loads as they do not know when to use them and when not to. Sustainability - Optimizing for reefer loads does not only save huge cost it also saves energy overall. Some companies do not want their loads to stop in areas with adverse temperature conditions  Solution</description>
     </item>
     
     <item>
@@ -191,7 +194,10 @@ Detention is when a truck is delayed at either the origin pick up, or the destin
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/server-alloc/</guid>
-      <description>TBD</description>
+      <description>About Server Allocation
+In order to host more than a single application/database, we usually procure separate clusters for each. To host it in private cloud, we need to be allocate the servers in a manner which is rack &amp;amp; chassis aware, leading to minimal outages due to hardware failures within a cage.
+Problem
+Manual allocations were very slow and inefficient. Sometimes, unreachable nodes were being alloted. This resulted in delay in server provisioning and launch of a product.</description>
     </item>
     
     <item>
