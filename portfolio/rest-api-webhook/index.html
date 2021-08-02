@@ -116,7 +116,7 @@
           <h1>REST API Webhooks</h1>
         </div>
         <p class="text-center">
-          API as an offering will enable the user to integrate packaged data provided by the API into their internal systems and build a more complete business intelligence systems.
+          API as an offering will enable the user to integrate packaged data provided by the API into their internal systems and build more complete business intelligence systems.
         </p>
         <div class="case-details-info text-center">
           <div class="case-details-info-item">
@@ -137,7 +137,7 @@
             <div class="case-details-service text-center">
               <h3>Challenge</h3>
               <p>
-                To build an API service from scratch, which will have its own authentication, rate limiting and data pipelines for milli-second latency
+                To build an API service from scratch, which will have its authorization, rate limiting and data pipelines for milli-second latency
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@
             <div class="case-details-service text-center">
               <h3>Solution</h3>
               <p>
-                Designed and implemented a REST service with configurable rate limiting and data pipeline for creating isolated dataset for external exposure
+                Designed and implemented a REST service with configurable rate limiting and data pipeline for creating an isolated dataset for external exposure
               </p>
             </div>
           </div>
@@ -153,8 +153,8 @@
         <div class="case-details-thumb mb-5 text-center">
           <img src="https://harishsakthi.com/images/portfolio/fourkites/rest-api-webhook.webp" alt="case-details" />
         </div>
-        <p>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script which narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as intermediary. For filtering capabilities, I integrated the API with elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</p>
-<p>The high-throughput service was written in Go, which used Redis for performing rate limiting at customer level. Later on, we isolated the rate limiting responsibility from the service layer to a separate application gateway (Kong). This enabled us to capture the usage metrics as well for internal purposes.</p>
+        <p>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script that narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as an intermediary. For filtering capabilities, I integrated the API with Elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</p>
+<p>The high-throughput service was written in Go, which used Redis for performing rate-limiting at a customer level. Later on, we isolated the rate-limiting responsibility from the service layer to a separate application gateway (Kong). This enabled us to capture the usage metrics as well for internal analytics.</p>
 
       </div>
     </div>

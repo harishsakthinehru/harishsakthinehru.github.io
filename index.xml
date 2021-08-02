@@ -123,7 +123,7 @@ Working around the clock, we quickly built out a dashboard providing real-time i
       <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/rest-api-webhook/</guid>
-      <description>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script which narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as intermediary. For filtering capabilities, I integrated the API with elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</description>
+      <description>Based on the requirement and projected usage patterns, I came up with the architecture for backend service and data pipelines. I wrote a bash script that narrowed down the data that is needed for exposure via API and transferred that from our data warehouse to a row-based storage, using an object storage as an intermediary. For filtering capabilities, I integrated the API with Elasticsearch which resulted in a simple index-scan in RDS, setting us up for milli-seconds latency.</description>
     </item>
     
     <item>
@@ -132,8 +132,8 @@ Working around the clock, we quickly built out a dashboard providing real-time i
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/security-fw/</guid>
-      <description>In order to avoid buffer overflows, Cross-Site Scripting (XSS), Unvalidated Input vulnerability, SQL injection and dirty-data, I came up with a generic security framework for all Ruby-based microservices.
-It was designed as a generic regex-based multi-level nested input validation system, which gives complete control over the data that in getting ingested into the system. The developers had to specify a regex policy for the incoming requests&#39; params and the framework will act as a middleware scrutinizing the input before forwarding it to the API controller.</description>
+      <description>To avoid buffer overflows, Cross-Site Scripting (XSS), Unvalidated Input vulnerability, SQL injection and dirty data, I came up with a generic security framework for all Ruby-based microservices.
+It was designed as a generic regex-based multi-level nested input validation system, which gives complete control over the data that is getting ingested into the system. The developers had to specify a regex policy for the incoming requests&#39; params and the framework will act as a middleware scrutinizing the input before forwarding it to the API controller.</description>
     </item>
     
     <item>
@@ -142,9 +142,9 @@ It was designed as a generic regex-based multi-level nested input validation sys
       <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/custom-zone/</guid>
-      <description>This was a very generic feature which was used in creative ways to solve different subset of problems in logistics and helped during Covid-19 as well.
+      <description>This was a very generic feature used in many creative ways to solve a different subset of problems in logistics and helped during Covid-19 as well.
 Some of the creative use-cases were
- Users can look at Network Congestion map and customize a zone around the areas with longer wait times and get alerts when a truck is stopped there Identify areas affected by COVID-19 and customize zones with a fixed radius around these areas to be notified when a truck deviates or stops in this area Using Isochrone as a geofence type, the users can get notified when the truck is about to reach its destination Users can choose to get notified when the truck crosses a given landmark to prepare for the arrival For loads carrying altitude-sensitive materials, users can create a custom zone around areas of certain altitudes.</description>
+ Users can look at the Network Congestion map and customize a zone around the areas with longer wait times and get alerts when a truck stops there Identify areas affected by COVID-19 and customize zones with a fixed radius around these areas to be notified when a truck deviates or stops in this area Using Isochrone as a geofence type, the users can get notified when the truck is about to reach its destination Users can choose to get notified when the truck crosses a given landmark to prepare for the arrival For loads carrying altitude-sensitive materials, users can create a custom zone around areas of certain altitudes.</description>
     </item>
     
     <item>
@@ -154,8 +154,8 @@ Some of the creative use-cases were
       
       <guid>https://harishsakthi.com/portfolio/temperature-compliance/</guid>
       <description>About Temperature Compliance
-Shippers with goods adversely affected by temperature along the route, especially food items, need to plan ahead.
- Companies often have a difficult time efficiently managing their refrigerated loads as they do not know when to use them and when not to. Sustainability - Optimizing for reefer loads does not only save huge cost it also saves energy overall. Some companies do not want their loads to stop in areas with adverse temperature conditions  Solution</description>
+Shippers with goods adversely affected by temperature along the route, especially food items, need to plan beforehand.
+ Companies often have a difficult time efficiently managing their refrigerated loads as they do not know when to use them and when not to. Sustainability - Optimizing for reefer loads does not only save huge costs it also saves energy overall. Some companies do not want their loads to stop in areas with adverse temperature conditions  Solution</description>
     </item>
     
     <item>
@@ -164,8 +164,8 @@ Shippers with goods adversely affected by temperature along the route, especiall
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/licensing-fw/</guid>
-      <description>Granting an user access to multi-layered features was difficult and to control the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
-Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave a fine grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
+      <description>Granting a user access to multi-layered features was difficult and controlling the privileges at company licenses, packaging capability, user interface and feature level was very challenging to manage manually.
+The Licensing framework was a robust design to overcome this and scale easily across different products, capabilities, interfaces and features. This gave fine-grained control over access provisioning, where once the licenses are set up, the customers can add any user to any features and manage the full control themselves.</description>
     </item>
     
     <item>
@@ -174,8 +174,8 @@ Licensing framework was a robust design to overcome this and scale easily across
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/app-viz/</guid>
-      <description>As part of Analytics team, we were responsible for reporting and gathering insights. Considering the huge volume of our data, we had to prepare datamarts in our data warehouse and push them to the in-memory data stores used by Viz tools Tableau and Sisense.
-We had multi-tenancy architecture, so data security and integrity played a critical role. In order to achieve that, I had integrated the complete life-cycle of an user and company in our platform with the Row Level Security and ACLs in the in-memory stores.</description>
+      <description>As part of the Analytics team, we were responsible for reporting and gathering insights. Considering the huge volume of our data, we had to prepare datamarts in our data warehouse and push them to the in-memory data stores used by Viz tools Tableau and Sisense.
+We had multi-tenancy architecture, so data security and integrity played a critical role. To achieve that, I had integrated the complete life-cycle of a user and company in our platform with the Row Level Security and ACLs in the in-memory stores.</description>
     </item>
     
     <item>
@@ -185,7 +185,7 @@ We had multi-tenancy architecture, so data security and integrity played a criti
       
       <guid>https://harishsakthi.com/portfolio/live-detention/</guid>
       <description>About Detention
-Detention is when a truck is delayed at either the origin pick up, or the destination delivery location for more than the agreed upon &amp;ldquo;free time&amp;rdquo;. In most freight transports, the truck has 2 hours at the time of pick up and 2 hours upon delivery free of any cost. The purpose of detention charges is to compensate the truck/carrier when they are held up due to shipper&amp;rsquo;s inefficiency.</description>
+Detention is when a truck is delayed at either the origin pick up, or the destination delivery location for more than the agreed-upon &amp;ldquo;free time&amp;rdquo;. In most freight transports, the truck has 2 hours at the time of pick up and 2 hours upon delivery free of any cost. The purpose of detention charges is to compensate the truck/carrier when they are held up due to the shipper&amp;rsquo;s inefficiency.</description>
     </item>
     
     <item>
@@ -195,9 +195,9 @@ Detention is when a truck is delayed at either the origin pick up, or the destin
       
       <guid>https://harishsakthi.com/portfolio/server-alloc/</guid>
       <description>About Server Allocation
-In order to host more than a single application/database, we usually procure separate clusters for each. To host it in private cloud, we need to be allocate the servers in a manner which is rack &amp;amp; chassis aware, leading to minimal outages due to hardware failures within a cage.
+To host more than a single application/database, we usually procure separate clusters for each. To host it in the private cloud, we need to allocate the servers in a manner that is rack &amp;amp; chassis aware, leading to minimal outages due to hardware failures within a cage.
 Problem
-Manual allocations were very slow and inefficient. Sometimes, unreachable nodes were being alloted. This resulted in delay in server provisioning and launch of a product.</description>
+Manual allocations were very slow and inefficient. Sometimes, unreachable nodes were being allotted. This resulted in a delay in server provisioning and the launch of a product.</description>
     </item>
     
     <item>
@@ -206,8 +206,8 @@ Manual allocations were very slow and inefficient. Sometimes, unreachable nodes 
       <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://harishsakthi.com/portfolio/dns-mgmt/</guid>
-      <description>Zoho used to manage all the DNS servers, internal and external zone files manually. Considering the scale of the applications running in Zoho&amp;rsquo;s Data centers spanning continents, proactive measures had to be in place in case of any unforeseen disasters. Manual measures did not have the agility and always had a risk of human-error causing complete outages.
-We came up with an idea of building a tool, which would completely own this piece of Infrastructure and elevate the NOC team to take up other challenging tasks.</description>
+      <description>Zoho used to manage all the DNS servers, internal and external zone files manually. Considering the scale of the applications running in Zoho&amp;rsquo;s Datacenters spanning continents, proactive measures had to be in place in case of any unforeseen disasters. Manual measures did not have the agility and always had a risk of human error causing complete outages.
+We came up with the idea of building a tool, which would completely own this piece of Infrastructure and elevate the NOC team to take up other challenging tasks.</description>
     </item>
     
   </channel>

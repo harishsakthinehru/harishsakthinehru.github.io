@@ -145,7 +145,7 @@
             <div class="case-details-service text-center">
               <h3>Solution</h3>
               <p>
-                A combination of streaming and batch pipelines which proactively keeps track of the temperature variations across different areas and alert if load enters area with adverse conditions. This also predicts if an expensive Reefer container is required for transport based on historical info, weather &amp; temperature considerations across the route.
+                A combination of streaming and batch pipelines which proactively keeps track of the temperature variations across different areas and alert if a load enters an area with adverse conditions. This also predicts if an expensive Reefer container is required for transport based on historical info, weather &amp; temperature considerations across the route.
               </p>
             </div>
           </div>
@@ -154,14 +154,14 @@
           <img src="https://harishsakthi.com/images/portfolio/fourkites/temperature-compliance.webp" alt="case-details" />
         </div>
         <p><strong>About Temperature Compliance</strong></p>
-<p>Shippers with goods adversely affected by temperature along the route, especially food items, need to plan ahead.</p>
+<p>Shippers with goods adversely affected by temperature along the route, especially food items, need to plan beforehand.</p>
 <ul>
 <li>Companies often have a difficult time efficiently managing their refrigerated loads as they do not know when to use them and when not to.</li>
-<li>Sustainability - Optimizing for reefer loads does not only save huge cost it also saves energy overall.</li>
+<li>Sustainability - Optimizing for reefer loads does not only save huge costs it also saves energy overall.</li>
 <li>Some companies do not want their loads to stop in areas with adverse temperature conditions</li>
 </ul>
 <p><strong>Solution</strong></p>
-<p>I designed the architecture, implemented the end-to-end data pipeline and backend microservice for API consumption. Using Spark, I came up with a batch job (Python) which fetches the data from warehouse periodically for temperature impact computation. Ad-hoc triggers from application layer were supported using a ruby background worker, which pushed the loads to Kafka. A spark streaming job (Python) consumes the loads from kafka, fetches the predicted route from a NoSQL store, gets the temperature forecast data for different areas from HERE APIs, computes the temperature impact and stores the result in the NoSQL store and Elasticsearch. From the application, requests get served by a microservice written in ruby which will read the results/predictions from NoSQL store and Elasticsearch.</p>
+<p>I designed the architecture, implemented the end-to-end data pipeline and backend microservice for API consumption. Using Spark, I came up with a batch job (Python) that fetches the data from the warehouse periodically for temperature impact computation. Ad-hoc triggers from the application layer were supported using a ruby background worker, which pushed the loads to Kafka. A spark streaming job (Python) consumes the loads from Kafka, fetches the predicted route from a NoSQL store, gets the temperature forecast data for different areas from HERE APIs, computes the temperature impact and stores the result in the NoSQL store and Elasticsearch. From the application, requests get served by a microservice written in ruby which will read the results/predictions from a NoSQL store and Elasticsearch.</p>
 
       </div>
     </div>
